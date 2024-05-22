@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coloredbox{
+    background-color: aqua;
+}
+.Start{
+    background-color: rgb(64, 184, 64);
+    width: 75px;
+    height:30px;
+    margin: 0 5px;
+    border-color: green;
+}
+.Gameplay{
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none; /*change to none later*/
+}
+.ContentDiv{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+  .Correct{
+    background-color: rgb(64, 184, 64);
+    width: 100px;
+    height:30px;
+    margin: 0 5px;
+    border-color: green;
+  }
+  .Incorrect{
+    background-color: rgb(232, 102, 82);
+    width: 100px;
+    height:30px;
+    margin: 0 5px;
+    border-color: red;
+  }
+  .Response{
+    background-color:lightgray ;
+    width: 100px;
+    height:30px;
+    margin: 0 5px;
+    border-color: black
+  }
